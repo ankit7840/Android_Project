@@ -32,8 +32,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
-
-
         val cityInput1 = findViewById<AutoCompleteTextView>(R.id.tiInput1)
         val cityInput2 = findViewById<AutoCompleteTextView>(R.id.tiInput2)
 
@@ -50,8 +48,6 @@ class MainActivity : AppCompatActivity() {
                 cityInput2.setAdapter(adapter)
             }
         }
-
-
         //the below code  will handle  the onclick event on the submit button
         val btnSubmit = findViewById<Button>(R.id.btnSubmit)
         btnSubmit.setOnClickListener {
