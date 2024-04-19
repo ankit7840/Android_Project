@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Change the background color to a different color -->
+    <solid android:color="#C2D2D9"/> <!-- hot pink background color -->
+    <!-- Increase the border radius to make the TextView look more rounded -->
+    <corners android:radius="20dp"/> <!-- increased corner radius -->
+    <!-- Add a stroke to make the TextView stand out more -->
+    <stroke android:color="#000000" android:width="2dp"/>
+</shape>

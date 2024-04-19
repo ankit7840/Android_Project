@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- color when the TextView is hovered over -->
+    <item android:state_hovered="true" android:color="#ADD8E6"/>
+    <!-- color when the TextView is not being hovered over -->
+    <item android:color="#FFFFFF"/>
+</selector>
